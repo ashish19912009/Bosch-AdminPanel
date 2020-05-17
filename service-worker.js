@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Bosch-AdminPanel/precache-manifest.d38e2702a12b13c619f11b297731c733.js"
+  "/Bosch-AdminPanel/precache-manifest.0ad0b88c4d2ebc3e7eddcafcaa9750b8.js"
 );
 
 self.addEventListener('message', (event) => {
