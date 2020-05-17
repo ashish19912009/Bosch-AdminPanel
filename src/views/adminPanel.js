@@ -4,11 +4,11 @@ import Header from '../components/Header';
 import Navigation from '../components/navigation';
 import Home from '../components/body';
 import Dummy from '../components/dummyCompo';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 
 const AdminPanel = () => {
     return(<React.Fragment>
-        <BrowserRouter>
+        <HashRouter>
             <div style={{display:'flex'}}>
                 <CssBaseline />
                 <Header/>
@@ -19,7 +19,7 @@ const AdminPanel = () => {
                     <Route path="/dummyComponent" component={Dummy}/>
                 </Switch>
             </div>
-        </BrowserRouter>
+        </HashRouter>
         </React.Fragment>)
 }
 
