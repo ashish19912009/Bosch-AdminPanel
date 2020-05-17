@@ -2,7 +2,7 @@
   "name": "bosch-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://",
+  "homepage": "https://ashish19912009.git.io/Bosch-AdminPanel",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@material-ui/icons": "^4.9.1",
@@ -17,6 +17,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
